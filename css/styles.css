@@ -86,8 +86,40 @@ nav ul li a {
 }
 
 .portafolio {
-    width: 100%;
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column;
+    flex-direction: row;
     justify-content: center;
+}
+
+.paisajes-btn, .videos-btn, .retratos-btn {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.paisajes-btn a, .videos-btn a, .retratos-btn a {
+    position: relative;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.paisajes-btn img, .videos-btn video, .retratos-btn img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.portafolio h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
 }
