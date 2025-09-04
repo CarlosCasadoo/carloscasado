@@ -18,14 +18,14 @@ Un portfolio web moderno y elegante que presenta mi trabajo como comunicador aud
 | WordPress | HTML |
 |-----------|------|
 | ![WordPress Version](assets/docs/readme/wordpress-section.webp) | ![HTML Version](assets/docs/readme/html-section.webp) |
-| *Versión original con Wordpress* | *Nueva implementación con HTML5 + Taiñwind CSS* |
+| *Versión original con Wordpress* | *Nueva implementación con HTML5 + Tailwind CSS* |
 
 Una de las principales diferencias es en el hero de las secciones, en el cual destaca más y juega un poco con el contenido dentro de ella.
 
 | WordPress | HTML |
 |-----------|------|
 | ![WordPress Version](assets/docs/readme/wordpress-about-me.webp) | ![HTML Version](assets/docs/readme/html-about-me.webp) |
-| *Versión original con Wordpress* | *Nueva implementación con HTML5 + Taiñwind CSS* |
+| *Versión original con Wordpress* | *Nueva implementación con HTML5 + Tailwind CSS* |
 
 Él sobre mí cobra más vida al ocupar toda la página, sumado a un **formulario de contacto** al final del mismo.
 
