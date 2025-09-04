@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://new.carloscasado.es/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://new.carloscasado.es/pages/paisajes/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://new.carloscasado.es/pages/retratos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://new.carloscasado.es/pages/videos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://new.carloscasado.es/pages/about-me/</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>

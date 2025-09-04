@@ -3,6 +3,20 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <link rel="manifest" href="../../site.webmanifest" />
+    <link rel="shortcut icon" href="../../favicon.ico" />
+    <meta name="description"
+        content="Colección de vídeos de Carlos Casado: creatividad audiovisual, paisajes y retratos en movimiento." />
+    <meta name="author" content="Carlos Casado" />
+    <meta name="keywords"
+        content="Carlos Casado, vídeos, audiovisual, portfolio, Salamanca, Cantabria, fotografía, creatividad" />
+    <meta property="og:title" content="Carlos Casado - Vídeos" />
+    <meta property="og:description"
+        content="Descubre la colección de vídeos de Carlos Casado: paisajes, retratos y creatividad audiovisual." />
+    <meta property="og:type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +25,7 @@
         rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-    <title>Carlos Casado</title>
+    <title>Carlos Casado - Vídeos</title>
     <link rel="stylesheet" href="../../assets/css/hero-sections.css">
     <link rel="stylesheet" href="../../assets/css/footer.css" />
 </head>
@@ -73,6 +87,23 @@
             </div>
         </section>
 
+        <!-- Ref: https://lexingtonthemes.com/tutorials/how-to-create-a-scroll-to-top-button-with-tailwind-css-and-alpinejs/ -->
+
+        <div x-data="{ isVisible: false }"
+            x-init="window.addEventListener('scroll', () => { isVisible = window.scrollY > 100; })"
+            class="fixed z-50 bottom-6 right-6" x-show="isVisible" x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0 transform translate-y-2"
+            x-transition:enter-end="opacity-100 transform translate-y-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="opacity-100 transform translate-y-0"
+            x-transition:leave-end="opacity-0 transform translate-y-2">
+            <button title="Scroll to top" aria-label="Scroll to top"
+                class="bg-black/20 backdrop-blur-sm hover:bg-white/30 text-white px-4 py-2 rounded-full shadow-lg transition-colors duration-200"
+                @click="window.scrollTo({ top: 0, behavior: 'smooth' })">
+                Ir hacia arriba
+            </button>
+        </div>
+
         <section class="flex flex-col md:flex-row items-center justify-center gap-8 my-12" id="gallery">
             <iframe width="315" height="560" src="https://www.youtube.com/embed/6ikBE-VGZI0?si=u9G-JuNBGotJnmXN"
                 loading="lazy" title="YouTube video player" frameborder="0"
@@ -95,8 +126,8 @@
                 </a>
                 <a href="https://es.wikipedia.org/wiki/Facundo_Cabral" target="_blank" rel="noopener noreferrer">
                     <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-                        <img loading="lazy" class="w-6 h-6 rounded-full" src="../../assets/media/videos/Facundo_Cabral.webp"
-                            alt="Retrato de Facundo Cabral">
+                        <img loading="lazy" class="w-6 h-6 rounded-full"
+                            src="../../assets/media/videos/Facundo_Cabral.webp" alt="Retrato de Facundo Cabral">
                         <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500">
                             <cite class="pe-3 font-medium text-gray-900">Facundo Cabral</cite>
                             <cite class="ps-3 text-sm text-gray-500">Cantautor argentino</cite>
@@ -120,8 +151,8 @@
                 </blockquote>
                 <a href="https://es.wikipedia.org/wiki/Facundo_Cabral" target="_blank" rel="noopener noreferrer">
                     <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-                        <img loading="lazy" class="w-6 h-6 rounded-full" src="../../assets/media/videos/Facundo_Cabral.webp"
-                            alt="Retrato de Facundo Cabral">
+                        <img loading="lazy" class="w-6 h-6 rounded-full"
+                            src="../../assets/media/videos/Facundo_Cabral.webp" alt="Retrato de Facundo Cabral">
                         <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500">
                             <cite class="pe-3 font-medium text-gray-900">Facundo Cabral</cite>
                             <cite class="ps-3 text-sm text-gray-500">Cantautor argentino</cite>

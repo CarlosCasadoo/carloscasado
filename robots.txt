@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/docs/
+Allow: /
+Sitemap: https://new.carloscasado.es/sitemap.xml
