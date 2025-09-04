@@ -32,7 +32,7 @@ Una de las principales diferencias es en el hero de las secciones, en el cual de
 | WordPress | HTML |
 |-----------|------|
 | ![WordPress Version](assets/docs/readme/wordpress-pantone.webp) | ![HTML Version](assets/docs/readme/html-pantone.webp) |
-| *Versión original con Wordpress* | *Nueva implementación con HTML5 + Taiñwind CSS* |
+| *Versión original con Wordpress* | *Nueva implementación con HTML5 + Tailwind CSS* |
 
 Otra de las diferencias son los colores pantone de las galerías, que anteriormente eran imágenes que conformaban un peso, por más mínimo que sea en la carga de la página; eran un factor de optimización a tomar en cuenta.
 
